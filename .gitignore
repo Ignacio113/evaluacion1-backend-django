@@ -1,0 +1,12 @@
+# Ignorar entorno virtual
+.venv/
+
+# Ignorar base de datos local SQLite3
+*.sqlite3
+
+# Ignorar archivos compialdos de python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de logs
+*.log
