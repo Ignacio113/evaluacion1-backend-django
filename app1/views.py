@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def vista1(request):
-    return HttpResponse("<h1>Bienvenido a la Vista 1</h1>")
+    return render(request, 'app1/vista1.html')
 
 def vista2(request):
-    return HttpResponse("<p>Esta es la Vista 2</p>")
+    return render(request, 'app1/vista2.html')
